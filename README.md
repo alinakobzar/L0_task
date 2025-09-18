@@ -10,14 +10,16 @@
 
 2. Поднять kafka
    ```bash
-  docker-compose up -d
+   docker-compose up -d
 
 3. Запустить producer 
-  ```bash
-  cd cmd/producer
-  go run main.go
+    ```bash
+    cd cmd/producer
+    go run main.go 
+   ```
 
 4. Запустить сервис
-  ```bash
-  cd cmd/api
-  go run main.go
+   ```bash
+   cd cmd/api
+   go run main.go
+   ```
